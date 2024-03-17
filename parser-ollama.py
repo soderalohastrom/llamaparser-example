@@ -35,7 +35,7 @@ from llama_index.embeddings.ollama import OllamaEmbedding  # noqa: E402
 
 embed_model = OllamaEmbedding(
     #model_name="nomic-embed-text",
-    model_name="llama2",
+    model_name="nomic-embed-text",
     base_url="http://localhost:11434",
     ollama_additional_kwargs={"mirostat": 0},
 )
